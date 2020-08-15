@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Amazing Blog by Himal Sandaruwan">
+    <meta name="keywords" content="web design, web development, blogging">
+    <title>HTML Cheat Sheet</title>
+  </head>
+  <body>
+      <!-- Page Linking -->
+      <a href="blog.html">Go to Blog</a>
+      <hr>
+
+      <!-- Headings -->
+      <h1>Heading One</h1>
+      <h2>Heading Two</h2>
+      <h3>Heading Three</h3>
+      <h4>Heading Four</h4>
+      <h5>Heading Five</h5>
+      <h6>Heading Six</h6>
+
+      <!-- Paragraph -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum porro iusto ad animi ill
+        o cum. Explicabo <strong>molestiae non repudiandae esse odit eaque neque</strong>, recusandae odio obcaecati suscipit 
+        consequuntur. Praesentium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum porro
+        iusto ad animi illo cum. Explicabo <em>molestiae non repudiandae</em> esse odit eaque neque, recusandae odio 
+        obcaecati suscipit consequuntur. Praesentium.
+      </p>
+
+      <p>
+        Lorem ipsum dolor <a href="newpage.html">sit amet</a> consectetur adipisicing elit. Similique eum porro iusto ad animi ill
+        o cum. Explicabo molestiae non repudiandae esse odit eaque neque, <a href="http://google.com" target="_blank">recusandae odio</a> 
+        obcaecati suscipit consequuntur. Praesentium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum porro
+        iusto ad animi illo cum. Explicabo molestiae non repudiandae esse odit eaque neque, recusandae odio 
+        obcaecati suscipit consequuntur. Praesentium.   
+      </p>
+
+      <!-- Lists -->
+      <!-- Unordered Lists -->
+      <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+      </ul>
+
+      <!-- Ordered Lists -->
+      <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+      </ol>
+
+      <!-- Tables -->
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Himal Sandaruwan</td>
+            <td>himal@ll.lk</td>
+            <td>Panadura</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Kasun Tharaka</td>
+            <td>kasun@ll.lk</td>
+            <td>Kalutara</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>Jagath Wickramasinghe</td>
+            <td>jagathwick@ll.lk</td>
+            <td>Colombo</td>
+            <td>34</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+      <hr>
+      <br>
+
+      <!-- Forms -->
+      <form action="./php/process.php" method="POST">
+        <div>
+            <label>First Name : </label>
+            <input type="text" name="first-name" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Last Name : </label>
+            <input type="text" name="last-name" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Email : </label>
+            <input type="email" name="email" placeholder="Type your correct email address..." required>
+        </div>
+        <br>
+
+        <div>
+            <label>Message : </label>
+            <textarea name="msg" id="" cols="50" rows="10" required></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label>Gender : </label>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label>Age : </label>
+            <input type="number" name="age" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Birthday : </label>
+            <input type="date" name="bday" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Profile Picture : </label>
+            <input type="file" name="imgfile" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Favourite Food : </label>
+            <input type="checkbox" name="apple" value="apple"> <label>Apple</label>
+            <input type="checkbox" name="chocolate" value="chocolate"> <label>Chocolate</label>
+            <input type="checkbox" name="cake" value="cake"> <label>Cake</label>
+        </div>
+        <br>
+
+        <div>
+            <label>User Type : </label>
+            <input type="radio" id="static" name="usertype" value="static"> <label>Static</label>
+            <input type="radio" id="dynamic" name="usertype" value="dynamic"> <label>Dynamic</label>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit" name="submit">
+            <!-- <button type="submit">Submit</button> -->
+        </div>
+    </form>
+
+    <hr>
+
+    <!-- Buttons -->
+    <br><br>
+    <button>Click Me!</button>
+    <br><br>
+
+    <hr>
+
+    <!-- Images -->
+    <a href="./img/spider.jpg" target="_blank">
+        <img src="./img/spider.jpg" alt="This is an image" height="200" width="200">
+    </a>
+
+    <!-- Quatations -->
+    <blockquote cite="http://google.lk">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat, asperiores expedita velit assumenda eaque, alias a dolores excepturi reiciendis iusto facere! Tempora reiciendis cupiditate officiis! Omnis nihil rem magni!
+    </blockquote>
+
+    <hr>
+
+    <!-- Abbreviation -->
+    <p>
+        The <abbr title="World Wide Web">WWW</abbr> is one of amazing things that discovered ever.
+    </p>
+
+    <hr>
+
+    <!-- Section -->
+    <section>
+        <p>HTML Crash Course By <cite>ThripleBee</cite></p>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2020</p>
+    </footer>
+    
+  </body>
+</html>
